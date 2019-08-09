@@ -151,7 +151,7 @@ void ofxGLFWJoystick::drawDebug(int x, int y){
 				}
 				ofColor c; c.setHsb((i * 16)%255, 255, 255);
 				ofSetColor(c);
-				ofDrawArrow(ofVec2f(xx, yy), ofVec2f(xx + x, yy + y), 4);
+				ofDrawArrow(ofVec3f(xx, yy), ofVec3f(xx + x, yy + y), 4);
 				xOffset += joyRad * 2 + padding;
 			}
 
